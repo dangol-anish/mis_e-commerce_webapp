@@ -56,7 +56,7 @@ export default async function AdminDashboard() {
       ])
 
   return (
-    <div className="w-full flex justify-center gap-5">
+    <div className="w-screen flex justify-center gap-5">
        <DashboardCard
         title="Sales"
         subtitle={`${formatNumber(salesData.numberOfSales)} Orders`}
