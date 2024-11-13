@@ -83,7 +83,7 @@ type DashboardCardProps = {
     body: string
   }
   
-  function DashboardCard({ title, subtitle, body }: DashboardCardProps) {
+function DashboardCard({ title, subtitle, body }: DashboardCardProps) {
     return (
       <Card className="w-[20%]">
         <CardHeader>
